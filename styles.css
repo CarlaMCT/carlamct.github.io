@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+ul{
+    list-style-type: none;
+}
+/* moviles */
+@media(max-width: 768px){
+}
+
+/* Escritorio */
+@media (min-width: 769px) {
+    .container{
+        display: flex;
+    }
+}
+/* Heades clases */
+header{
+    background-color: rgb(203, 148, 255);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.header-list{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.imagen_header {
+    width: 60px;
+    height: 60px;
+}
+
+/* Other classes */
+.mainbody {
+    max-width: 100%;
+}
+
+
+.presentacion {
+    text-align: center;
+    padding: 10px;
+}
+
+.tamañoimagen {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* Carousel classes */
+.imagencarousel {
+    max-width: 550px;
+    max-height: 550px;
+}
+
+.contenedorcarousel {
+    display: flex;
+    justify-content: center;
+}
+
+/* Containers  */
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+.contendor-valores{
+    text-align: center;
+    padding: 10px;
+}
+
+.caja {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .contendor-valores{
+    text-align: center;
+    padding: 10px;
+} */
+
+.titulos {
+    color: rgb(59, 0, 113);
+}
+
+.subtitulos {
+    color: rgb(233, 183, 33);
+}
+
+.parrafo {
+    color: rgb(123, 0, 239);
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+}
+
+.servicios {
+    display: flex;
+    overflow-x: auto;
+}
+
+.caja-servicios {
+    text-align: center;
+    background-color: rgb(203, 148, 255);
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textocajas {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.daclick {
+    display: flex;
+    justify-content: center;
+    color: rgb(233, 183, 33);
+    font-size: 15px;
+}
+
+.imagenpaginas {
+    width: 150px;
+}
+
+.dossier-item {
+    text-align: center;
+    padding: 30px;
+}
+
+.dossier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 90%;
+}
+
+.formulario {
+    box-sizing: border-box;
+    background-color: rgb(203, 151, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form {
+    background-color: rgb(221, 98, 188);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 420px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0,2);
+    text-align: center;
+}
+
+.input {
+    padding: 17px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #603452;
+    margin-bottom: 30px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.button {
+    background-color: #E53854;
+    border: 2px #E53854;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #F33F5A;
+    border: 2px solid #F33F5A;
+}
+
+.mapayvideo {
+    margin: 30px;
+}
